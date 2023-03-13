@@ -18,9 +18,9 @@ namespace ConsoleApp3
         {
             StoreInfo storeInfo = (StoreInfo)ob;
             if (storeInfo.discount > 30)
-                Console.WriteLine("больще 30 % {0}", Name, storeInfo.discount) ;
+                Console.WriteLine("{0} получил скидку больще 30 % {1}", Name, storeInfo.discount) ;
             else
-                Console.WriteLine("скидка {0}", Name  ,storeInfo.discount);
+                Console.WriteLine("скидка {0}  {1}", Name  ,storeInfo.discount);
         }
         public void StopStore()
         {

@@ -20,7 +20,7 @@ namespace ConsoleApp3
             if (storeInfo.discount <10)
                 Console.WriteLine("{0} получил меньще 10 %   {1}", Name, storeInfo.discount);
             else
-                Console.WriteLine("скидка для {0} ", Name , storeInfo.discount);
+                Console.WriteLine(" для {0} акция    {1}", Name , storeInfo.discount);
         }
         public void StopStore()
         {
