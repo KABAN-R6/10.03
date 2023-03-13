@@ -7,6 +7,6 @@ namespace ConsoleApp3
     interface Iobserver
     {
        
-        void Update();
+        void Update(object ob);
     }
 }

@@ -4,11 +4,8 @@ using System.Text;
 
 namespace ConsoleApp3
 {
-    class ConcreteObserver : Iobserver
+    class StoreInfo
     {
-        public void Update()
-        {
-
-        }
+        public int discount{ get; set; }
     }
 }
